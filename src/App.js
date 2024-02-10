@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+import BasicTabs from "./components/BasicTabs/BasicTabs"
+import Header from "./components/Header"
+import Ratings from "./components/Ratings/Ratings"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className="App__content">
+        <div className="App__rating-and-label">
+          <div className="App__label">Yoga</div>
+          <Ratings averageRating={4.5} numberOfRatings={365}/>
+        </div>
+        <h3>Yoga Body Stretching</h3>
+        <BasicTabs />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

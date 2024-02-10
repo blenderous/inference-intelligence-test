@@ -1,0 +1,58 @@
+.Header {
+  box-sizing: border-box;
+  height: 328px;
+  padding: 58px 25px 22px;
+  background-color: #63788d;
+}
+
+.Header__button {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+}
+
+.Header__button svg {
+  vertical-align: middle;
+}
+
+.Header__icons-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Header__icons-right > button:first-child {
+  margin-right: 10px;
+}
+
+.Header__play-button {
+  width: 182px;
+  font-size: 0.9em;
+  padding: 0 14px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.Header__preview-icon {
+  margin-top: 44px;
+}
+
+.Header__preview-icon button {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.Header__preview-icon button svg {
+  margin-right: 9px;
+  font-size: 2.4em;
+}
+
+.Header__thumbs-list {
+  width: 326px;
+  height: 57px;
+}

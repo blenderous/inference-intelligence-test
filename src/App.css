@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#root {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  place-content: center;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  width: 375px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App__content {
+  padding: 24px;
+}
+
+.App__rating-and-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App__label {
+  background-color: #f4f6f9;
+  border-radius: 8px;
+  color: #6739ff;
+  padding: 6px 12px;
+  font-size: 0.9em;
+}
+
+.App h3 {
+  font-weight: 400;
+  font-size: 1.35em;
+}
+
+.MuiButtonBase-root.MuiTab-root {
+  text-transform: none;
+  flex-grow: 1;
+}
+
+.MuiButtonBase-root.MuiTab-root.Mui-selected {
+  color: #6739ff;
+  border-bottom-color: #6739ff;
+}
+
+.MuiTabs-scroller.MuiTabs-fixed .MuiTabs-indicator {
+  background-color: #6739ff;
+  height: 4px;
+  border-radius: 4px 4px 0 0;
 }

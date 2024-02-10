@@ -1,0 +1,10 @@
+.Ratings {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.9em;
+}
+
+.Ratings__average, .Ratings__number {
+  color: #9b9b9b;
+}
