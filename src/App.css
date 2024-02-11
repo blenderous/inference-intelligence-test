@@ -5,7 +5,7 @@
 }
 
 .App {
-  width: 375px;
+  min-width: 375px;
 }
 
 .App__content {
