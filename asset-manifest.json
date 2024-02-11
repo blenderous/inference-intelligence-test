@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/inference-intelligence-test/static/css/main.a415954c.css",
+    "main.js": "/inference-intelligence-test/static/js/main.e0e97856.js",
+    "static/js/592.eb35220f.chunk.js": "/inference-intelligence-test/static/js/592.eb35220f.chunk.js",
+    "index.html": "/inference-intelligence-test/index.html",
+    "main.a415954c.css.map": "/inference-intelligence-test/static/css/main.a415954c.css.map",
+    "main.e0e97856.js.map": "/inference-intelligence-test/static/js/main.e0e97856.js.map",
+    "592.eb35220f.chunk.js.map": "/inference-intelligence-test/static/js/592.eb35220f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a415954c.css",
+    "static/js/main.e0e97856.js"
+  ]
+}
